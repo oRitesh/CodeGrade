@@ -1,0 +1,1 @@
+numbers = int(input("Enter 2 numbers"))
