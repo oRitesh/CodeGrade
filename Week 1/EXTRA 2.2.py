@@ -8,3 +8,6 @@ seconds = remaining_seconds % 60
 
 # Output the result as whole numbers, .02d so that the seconds and minutes have a 0 in front when its a single number
 print(f"{hours}:{minutes:02d}:{seconds:02d}")
+
+# % is a float division, gives the remains of a division
+# // is a floor division, gives the the result and discards the remains
